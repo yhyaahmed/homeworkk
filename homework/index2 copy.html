@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+    <style>
+        html{
+            background-color:#B43E93 ;
+
+        }
+
+
+
+.box{
+color:black ;
+display:grid ;
+text-align:center ;
+}
+.rightphoto{
+grid-area: rtph ;
+background-image: url(photo/rt.PNG);
+}
+.gbox{
+    grid-area:gbox ;
+    background-color:#FFC600;
+
+}
+.gbox1{
+    grid-area:gbox1 ;
+    background-color:#FFC600;
+
+}
+
+
+
+.box1{grid-area:box1 ;background-color: white;
+}
+
+.box2{grid-area:box2 ;background-color: white;}
+
+.box3{grid-area:box3 ;background-color: white;}
+
+.box4{grid-area:box4 ;background-color: white;}
+
+
+.container{
+display:grid ;
+padding:30px ;
+grid-auto-rows: minmax(180px , auto);
+grid-template-areas:
+"rtph rtph rtph gbox "
+"rtph rtph rtph gbox1 " 
+"box1 box2 box3 box4 "
+;
+grid-gap:15px ;
+}
+.gbox h2{font-size:40px ;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.gbox p{font-size:18px}
+
+.gbox1 h2{font-size:40px ;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.gbox1 p{font-size:18px}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+<div class="box rightphoto"></div>
+<div class="box gbox">
+    <h2>
+    1.99
+    <p>Tacos</p>
+    </h2>
+    
+</div>
+<div class="box gbox1"><h2>
+    3.99
+    <p>kombucha</p>
+    </h2></div>
+<div class="box box1"></div>
+<div class="box box2"></div>
+<div class="box box3"></div>
+<div class="box box4"></div>
+
+
+
+
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+html{
+    background-color: rgb(78, 77, 77);
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5 , 1fr);
+    grid-gap: 20px;
+}
+.box{
+    background-color:white ;
+}
+
+.box1{
+    grid-column-start:2;
+
+}
+
+.box img{
+    width:400px;
+    height:250px;
+}
+
+.box h1{
+    text-align: center;
+    font-family: monospace;
+    margin-bottom:40px;
+    
+}
+
+.box p{
+    text-align: center;
+    font-family: monospace;
+    font-size:25px;
+}
+
+.contant{
+    padding:15px ;
+    margin-top:20px ;
+}
